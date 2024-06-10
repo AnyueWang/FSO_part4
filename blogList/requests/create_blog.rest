@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "Use the “1 Hour Rule” to Catapult Yourself into the Top 1% of Income Earners.",
+    "author": "Hallel K.",
+    "url": "https://medium.com/practice-in-public/use-the-1-hour-rule-to-catapult-yourself-into-the-top-1-of-income-earners-1a7209dc03d6",
+    "likes": 6897
+}
