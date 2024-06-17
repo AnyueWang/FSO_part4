@@ -7,3 +7,27 @@ Content-Type: application/json
     "url": "https://medium.com/practice-in-public/use-the-1-hour-rule-to-catapult-yourself-into-the-top-1-of-income-earners-1a7209dc03d6",
     "likes": 6897
 }
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtjbGFya3NvbiIsImlkIjoiNjY2YzA0ZGIxNWRkODIyZDY1MjI4YzgzIiwiaWF0IjoxNzE4NDM3MjQ5fQ.A28qTKNPMD0rtg5blTBpbaTqkbPt-rBTLLGjeG3MHPk
+
+{
+    "title": "testing",
+    "author": "hii",
+    "url": "google.com",
+    "likes": 0
+}
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtjbGFya3NvbiIsImlkIjoiNjY2YzA0ZGIxNWRkODIyZDY1MjI4YzgzIiwiaWF0IjoxNzE4NDM3MjQ5fQ.A28qTKNPMD0rtg5blTBpbaTqkbPt-rBTLLGjeG3MHPj
+
+{
+    "title": "testing",
+    "author": "hii",
+    "url": "google.com",
+    "likes": 0
+}

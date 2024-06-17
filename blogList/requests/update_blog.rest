@@ -1,9 +1,22 @@
 PUT http://localhost:3003/api/blogs/6666f2e36dac3900c870caa2
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtjbGFya3NvbiIsImlkIjoiNjY2YzA0ZGIxNWRkODIyZDY1MjI4YzgzIiwiaWF0IjoxNzE4NjA1MzM2fQ.lx4J1hgRXp6GqcVvA1-JCqSQTNpOfO4Y6OuJIJHa0SU
 
 {
     "title": "Use the “1 Hour Rule” to Catapult Yourself into the Top 1% of Income Earners.",
     "author": "Hallel K.",
     "url": "https://medium.com/practice-in-public/use-the-1-hour-rule-to-catapult-yourself-into-the-top-1-of-income-earners-1a7209dc03d6",
-    "likes": 9999
+    "likes": 0
+}
+
+###
+PUT http://localhost:3003/api/blogs/666d4adbfcff0fc1b7f43ebf
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtjbGFya3NvbiIsImlkIjoiNjY2YzA0ZGIxNWRkODIyZDY1MjI4YzgzIiwiaWF0IjoxNzE4NjA1MzM2fQ.lx4J1hgRXp6GqcVvA1-JCqSQTNpOfO4Y6OuJIJHa0SU
+
+{
+    "title": "This is a blog I wrote",
+    "author": "Kelly Clarkson",
+    "url": "google.com",
+    "likes": 2000
 }
